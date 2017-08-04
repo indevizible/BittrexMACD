@@ -87,4 +87,4 @@ function calc() {
 
 }
 
-new CronJob('* * * * 0 5', calc, null, true);
+new CronJob('5 0 * * * *', calc, null, true);
