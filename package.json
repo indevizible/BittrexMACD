@@ -1,0 +1,14 @@
+{
+  "name": "BittrexMACD",
+  "version": "1.0.0",
+  "description": "MACD Trader",
+  "main": "bittrex-macd.js",
+  "repository": "https://github.com/indevizible/BittrexMACD.git",
+  "author": "Nattawut Singhchai <jadedragon17650@gmail.com>",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "moment": "^2.18.1",
+    "node.bittrex.api": "^0.4.1",
+    "technicalindicators": "^1.0.17"
+  }
+}
