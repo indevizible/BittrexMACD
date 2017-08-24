@@ -77,9 +77,9 @@ function calc() {
       }
     }
 
-    if(colorBar[colorBar.length-1] == 'r' && colorBar[colorBar.length-2] != 'r') {
+    if(colorBar[colorBar.length-1] == 'r') {
       buy(result[result.length - 1].C * 1.002)
-    }else if(colorBar[colorBar.length-1] == 'g' && colorBar[colorBar.length-2] != 'g'){
+    }else if(colorBar[colorBar.length-1] == 'g'){
       sell(result[result.length - 1].C * 0.998)
     }
     console.log(colorBar);
